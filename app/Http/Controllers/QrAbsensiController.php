@@ -115,5 +115,3 @@ class QrAbsensiController extends Controller
         return $pdf->download('qr_absen_' . $qrAbsen->date . '.pdf');
     }
 }
-
-
